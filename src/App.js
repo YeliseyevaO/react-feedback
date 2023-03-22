@@ -30,7 +30,7 @@ class App extends Component {
 
   render() {
     const { good, neutral, bad } = this.state;
-    const total = this.countTotalFeedback;
+    const total = this.countTotalFeedback();
 
   return(
     <div className="App">
