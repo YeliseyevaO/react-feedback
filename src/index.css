@@ -1,5 +1,29 @@
-body {
+@import-normalize;
+
+* {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
   margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+
+
+
+body {
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
