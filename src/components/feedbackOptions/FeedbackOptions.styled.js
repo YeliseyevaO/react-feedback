@@ -8,9 +8,11 @@ export const Option = styled.button`
   border-radius: 4px;
   color: black;
   font-weight: bold;
-  margin-right:10px;
+  margin-right:10px; 
+  
   &:hover {
     color: white;
+   box-shadow: 5px -5px 0 gray;
   }
 `
 
