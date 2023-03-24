@@ -1,7 +1,9 @@
-export default function Section({title, children}) {
-    return (<>
-        <h1>{title}</h1>
+import { Block, SectionTitle } from "./Section.styled"
+
+export default function Section({ title, children }) {
+    return (<Block>
+        <SectionTitle>{title}</SectionTitle>
         {children}
-    </>
+    </Block>
     )
 }
